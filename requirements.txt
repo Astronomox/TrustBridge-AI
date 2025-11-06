@@ -1,3 +1,6 @@
+Flask
+gunicorn
+
 # Core FastAPI
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
@@ -21,3 +24,4 @@ httpx==0.25.2
 tenacity==8.2.3
 
 # We removed: aiohttp (has C dependencies), orjson (needs Rust), textstat (not critical), chromadb (not needed yet)
+
